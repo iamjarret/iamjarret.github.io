@@ -173,7 +173,36 @@ Resources for applied topology.\\ Write to <a herf="mailto:admin@homology.io">ad
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<img src="persistencehomologygraph.png" width="100%">
+July 15th: Q&A with software developer<br>
+Begin with data, fix an epsilon and construct a topological structure, called a complex.  The complex has vertices, edges, faces, and generalization of these - n-simplices. <br><br>
+<b>Is it a clustering algorithm?</b><br>
+If cluster is represented as connected components in complex then the cluster would be only a subset of information in complex's <u>edge structure</u>.<br><br>
+<b>Complex depends on choice of epsilon, do you optimally choose one?</b><br>
+No, choose every one and consider the collection of all spaces each generates.  This is called the persistence module.  There exists a natural metric to relate two persistence modules and say how far apart the two structures are.<br><br>
+<b>So like rotating the data in space and asking how dissimilar?</b><br>
+Yes, but with rotation whole complex structure is actually invariant under this transformation.  This follows from the epsilon-balls being symmetric.<br><br>
+<b>But, moving one data point slightly away will change the structure?</b><br>
+Yes, perfect.  For some choices of epsilon the structures will still be the same, so these two data sets would be very similar and that would be captured in a small distance between persistence modules.<br><br>
+<b>What are examples?</b><br>
+You can talk about "spaces" very abstractly.  In chemistry chemists study "chemical space" the space of all possible chemicals even ones not yet discovered.  These tools can describe these spaces from the data available.  More concretely, a robotic arm moves in "configuration space."  The shortest path in the configuration space would be an answer to how the robotic arm should accomplish a certain task.  Yet, minimizing a function in a space with poor geometry could be impossible in real-time.  Complexes built from the set of possible robotic arm cifigurations are approximations and geometrically nice. <br><br>
+
+</div>
+
+</div>
+</div>
+</div>
+
+</div>
+
+
+
+
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+<div class="input_area">
+<img src="persistencehomologygraph.jpg" width="50%">
 </div>
 
 </div>
